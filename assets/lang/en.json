@@ -10,7 +10,13 @@
       "6": "Terms & Condition",
       "lang": "Language"
     },
+    "menutitle": {
+      "address": "Address",
+      "contact": "Contact Information",
+      "menu": "Menu"
+    },
     "address": "No.79, Village no.5, Ao Nang Sub District,  Muang Dictrict, Krabi Province",
+    "contact1": "Email : phiphi_np@hotmail.com",
     "copyright": "Nopparat Thara Beach - Phi Phi Islands National Park"
   }
 }
