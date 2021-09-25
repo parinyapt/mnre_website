@@ -28,8 +28,9 @@ export default {
   ],
 
   router: {
-    linkActiveClass: '',
-    linkExactActiveClass: 'text-gray-900 bg-gray-200'
+    // linkActiveClass: '',
+    // linkExactActiveClass: ''
+    // text-gray-900 bg-gray-200
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

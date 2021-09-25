@@ -30,6 +30,49 @@
       "section3": {
         "title": "Public Relations"
       }
+    },
+
+    "generalinformation": {
+      "index": {
+        "title":"General Information",
+        "subtitle": {
+          "1": "History",
+          "2": "Organization Structure",
+          "3": "Manpower",
+          "4": "Affiliated Agencies",
+          "5": "Information Service Center"
+        }
+      },
+      "history": {
+        "text1": "Nopparat Thara Beach National Park - Phi Phi Islands was declared a national park in the Royal Government Gazette, Volume 100, Section 106, dated October 6, 1983, and is Thailand's 47th National Park, , located at 47P477856E 889518N, with an area of approximately 387.90 square kilometers or 242,437 rai, with approximately 80 percent ground area and 20 percent water area."
+      },
+      "organizationStructure": {
+        "title": "Senior forestry officer, head of the national park",
+        "person1": {
+          "name": "Mr. Prayun Phongphan",
+          "position": {
+            "1": "Forestry Technical Officer, Professional Level"
+          }
+        },
+        "person2": {
+          "name": "Miss Suwanna Sa-Ard",
+          "position": {
+            "1": "General Administration",
+            "2": "National Parks Education and Research Department"
+          }
+        },
+        "person3": {
+          "name": "Mr. Saengsri Songthong",
+          "position": {
+            "1": "National Park Resource Management Department",
+            "2": "Recreation and Communication Department",
+            "3": "National Park Development Department"
+          }
+        }
+      },
+      "manpower": {
+
+      }
     }
   }
 }

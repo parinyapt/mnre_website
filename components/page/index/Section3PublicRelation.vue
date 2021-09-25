@@ -2,6 +2,7 @@
   <section class="px-4 mx-auto mt-12 mb-12 max-w-7xl sm:px-6 lg:px-4">
     <article>
         <h2 class="text-2xl font-extrabold text-gray-900">{{ $t( 'page.index.section3.title' ) }}</h2>
+        <div class="w-20 h-1 bg-blue-900 rounded"></div>
         <section class="grid mt-6 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-8">
             <article class="relative overflow-hidden duration-200 transform bg-white rounded-lg shadow-lg group hover:shadow-2xl">
                 <div class="relative w-full h-80 md:h-64 lg:h-44">

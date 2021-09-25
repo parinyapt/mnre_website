@@ -3,7 +3,7 @@
     <div class="px-10 pb-12 xl:px-40 lg:px-20 md:px-10 sm:px-5">
         <div class="flex flex-col justify-start w-full pt-12 space-y-2 sm:flex-row">
             <div class="flex flex-col w-full pr-6 space-y-4 sm:w-1/5 ">
-            <img class="" src="logo-notext.png" width="130" alt="Logo">
+            <img class="" src="/logo-notext.png" width="130" alt="Logo">
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="57" viewBox="0 0 160 57">
                     <defs>
                         <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 197 70">
@@ -22,7 +22,7 @@
             </div>
             <div class="flex flex-col w-full space-y-2 sm:w-1/5">
               <b>{{ $t('config.menutitle.menu') }}</b>
-              <nuxt-link :to="localePath('/')" class="bg-transparent rounded-lg opacity-60 ">{{ $t('config.menu.1') }}</nuxt-link>
+              <nuxt-link :to="localePath('/')" class="opacity-60 ">{{ $t('config.menu.1') }}</nuxt-link>
               <nuxt-link :to="localePath('general-information')" class="opacity-60">{{ $t('config.menu.2') }}</nuxt-link>
               <nuxt-link :to="localePath('tourist-attraction')" class="opacity-60">{{ $t('config.menu.3') }}</nuxt-link>
               <nuxt-link :to="localePath('service-travel')" class="opacity-60">{{ $t('config.menu.4') }}</nuxt-link>
@@ -39,9 +39,3 @@
     </div>
   </div>
 </template>
-
-<style>
-  .nuxt-link-active {
-    color: red;
-  }
-</style>
