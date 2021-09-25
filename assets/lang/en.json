@@ -196,6 +196,55 @@
             "2": "shell cemeteries, 22 stores"
           }
         }
+      },
+      "transportationaccessibility": {
+        "1": {
+          "title": "Car",
+          "detail":{
+            "1": "From Bangkok, take National Highway No. 4 via the province of Phetchaburi. Prachuap Khiri Khan, Chumphon, Ranong, Phang Nga, Krabi (about 946 kilometers) or National Highway No. 4 to Chumphon (roughly 946 kilometers). Continue on Highway No. 41, traveling through Lang Suan, Chaiya, and Wiang Sa districts. Province of Surat Thani Then, through Ao Luek District, take the provincial route number 4035. Return to Krabi Province on National Highway No. 4. The total distance traveled is about 814 kilometers.",
+            "2": "From Krabi town to Nopparat Thara Beach, follow the road in the city - in the pool for about 18 kilometers. Then take the coastline road, which runs for 6 kilometers between Nopparat Thara Beach and Ban Ao Nang Beach to the south. From Nopparat Thara Beach, it takes around 20 minutes by boat to visit Phra Nang Bay. For 75 million years, there has been a connection to the cemetery, which is 11 kilometers away."
+          }
+        },
+        "2": {
+          "title": "Airplane",
+          "detail":{
+            "1": "To get to Krabi International Airport, you'll need to fly from Bangkok. Then, for the travel into the city, taxi or bus services are available. Then take the Krabi-Ao Nang bus to Nopparat Thara Bay - Phi Phi Islands National Park's headquarters and accommodations. (via Ao Nang)"
+          }
+        },
+        "3": {
+          "title": "Boat",
+          "detail":{
+            "1": "Passenger boats departing from Krabi depart from Chao Fa Pier or Ao Phra Nang Pier, covering a distance of 40 kilometers in roughly 1.30 - 2.00 hours. Traveling by boat from Phuket is approximately 4 kilometers; alternatively, a boat from Chalong Pier, Ao Makham Bay, Phuket Province, is approximately 40 kilometers and takes approximately 1.30 - 2.00 hours."
+          }
+        },
+        "4": {
+          "title": "Train",
+          "detail":{
+            "1": "Trang Railway Station, Phunphin Railway Station in Surat Thani Province, or Thung Song Junction Railway Station in Nakhon Si Thammarat Province should be your final destination from Bangkok Railway Station. Then take a bus to Krabi and then a Krabi-Ao Nang bus to Nopparat Thara Bay - Phi Phi Islands National Park's office and accommodations. (via Ao Nang)"
+          }
+        },
+        "5": {
+          "title": "Passenger Bus",
+          "detail":{
+            "1": "If you're taking the bus, tickets can be purchased at the Southern Bus Terminal. Down to Krabi, there are two bus companies: Transport Company Limited and Lignite Tour Company. Then take the Krabi - Ao Nang bus to Nopparat Thara Bay - Phi Phi Islands National Park's headquarters and accommodations (via Ao Nang)."
+          }
+        },
+        "6": {
+          "title": "Taking a private boat around the islands",
+          "detail":{
+            "1": {
+              "title": "You can travel to Phi Phi Island by taking ferry from Krabi or Phuket. The main piers are as follows:",
+              "detail": {
+                "1": "Pier at Nopparat Thara Beach, located near the Nopparat Thara Beach - Phi Phi Islands national park office in Ban Khlong Haeng, Ao Nang Sub-district, Mueang District, Krabi Province. There are ferries to and from Phi Phi Island (Ao Ton Sai) twice a day at 09:30 and 15:30, with each trip costing 450 baht.",
+                "2": "Pier at Pak Klong Jalard, located in Sai Thai Sub-district, Mueang District, Krabi Province. It is the main pier for passenger boats in Krabi province. Go to Phi Phi Island (Ton Sai Bay) four times a day, at 9:00, 10:30, 13:30, and 15:00, departing from Phi Phi Island (Ton Sai Bay). The fare is 450 baht per person one way and departs at 9:00, 10:30, 14:00, and 15:30.",
+                "3": "Pak Nam Subdistrict, Mueang District, Krabi Province is home to Chao Fa Pier, which is located at the mouth of the Krabi River. Passenger boats run four times a day from Phi Phi Island (Ton Sai Bay), departing at 10:00, 10:30, 14:30, and 16:00. 8:45 a.m., 9:00 a.m., 1:00 p.m., and 2:15 p.m. are the times for departure. The cost per person for this journey is 150 baht.",
+                "4": "A cruise ship to Phi Phi Island (Ton Sai Bay) departs from Sea Angel Pier, Ratsada Subdistrict, Mueang District, Phuket Province, once per day, at 8:30 a.m., and departs from Phi Phi Island (Ton Sai Bay) once per day, at 2:30 p.m. The fare is 600 baht per person per trip.",
+                "5": "Rassada Pier, located in Ratsada Subdistrict, Mueang District, Phuket Province, is the largest cruise port in Phuket. Cruises to Phi Phi Island (Ton Sai Bay) depart 5 times per day, at 8:30, 11:00, 12:20, 13:30, and 15:00. Also available from Phi Phi Island (Ton Sai Bay) 7 times per day, at 09:00, 09:30, 11:00, 13:30, 14:00, 14:30, and 15:30. The fare is 600 baht per person per trip."
+              }
+            },
+            "2": "A long-tail boat service will be available to travel to various islands near the coast, which are normally docked near Nopparat Thara Beach, Ao Nang Beach, and the Chao Fah Pier at the Krabi River's mouth in Pak Nam Subdistrict, Mueang District, Krabi Province. A typical full-day charter service costs 2,200 baht for 1-6 people and 3,500 baht for 7-12 people. The uncharted service fee (traveling with other tourists) ranges from 450 to 750 baht per person. Life jackets and snorkeling equipment are provided during the tour."
+          }
+        }
       }
     }
   }
