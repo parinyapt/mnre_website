@@ -1,8 +1,9 @@
 <template>
   <section>
     <PageIndexIntroVideo />
-    <PageIndexLevel2 />
-    
+    <PageIndexSection2 />
+    <PageIndexSection3PublicRelation />
+
   </section>
 </template>
 

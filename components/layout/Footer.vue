@@ -1,8 +1,8 @@
 <template>
-  <div class="w-full bg-blue-900 text-white">
-    <div class="xl:px-40 pb-12 lg:px-20 md:px-10 sm:px-5 px-10">
-        <div class="w-full pt-12 flex flex-col sm:flex-row space-y-2 justify-start">
-            <div class="w-full sm:w-1/5 pr-6 flex flex-col space-y-4 ">
+  <div class="w-full text-white bg-blue-900">
+    <div class="px-10 pb-12 xl:px-40 lg:px-20 md:px-10 sm:px-5">
+        <div class="flex flex-col justify-start w-full pt-12 space-y-2 sm:flex-row">
+            <div class="flex flex-col w-full pr-6 space-y-4 sm:w-1/5 ">
             <img class="" src="logo-notext.png" width="130" alt="Logo">
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="57" viewBox="0 0 160 57">
                     <defs>
@@ -14,29 +14,34 @@
                 </svg> -->
                 <!-- <p class="opacity-60">{{ $t('config.address') }}</p> -->
             </div>
-            <div class="w-full sm:w-2/5 flex flex-col space-y-2">
+            <div class="flex flex-col w-full space-y-2 sm:w-2/5">
               <b>{{ $t('config.menutitle.address') }}</b>
               <p class="opacity-60">{{ $t('config.address') }}</p>
               <b>{{ $t('config.menutitle.contact') }}</b>
               <p class="opacity-60">{{ $t('config.contact1') }}</p>
             </div>
-            <div class="w-full sm:w-1/5 flex flex-col space-y-2">
+            <div class="flex flex-col w-full space-y-2 sm:w-1/5">
               <b>{{ $t('config.menutitle.menu') }}</b>
-              <nuxt-link :to="localePath('/')" class="opacity-60">{{ $t('config.menu.1') }}</nuxt-link>
+              <nuxt-link :to="localePath('/')" class="bg-transparent rounded-lg opacity-60 ">{{ $t('config.menu.1') }}</nuxt-link>
               <nuxt-link :to="localePath('general-information')" class="opacity-60">{{ $t('config.menu.2') }}</nuxt-link>
               <nuxt-link :to="localePath('tourist-attraction')" class="opacity-60">{{ $t('config.menu.3') }}</nuxt-link>
               <nuxt-link :to="localePath('service-travel')" class="opacity-60">{{ $t('config.menu.4') }}</nuxt-link>
             </div>
-            <div class="w-full sm:w-1/5 flex flex-col mb-1 space-y-2">
+            <div class="flex flex-col w-full mb-1 space-y-2 sm:w-1/5">
               <a class="opacity-60">{{ $t('config.menu.5') }}</a>
               <a class="opacity-60">{{ $t('config.menu.6') }}</a>
             </div>
         </div>
         <hr class="mt-5">
-        <div class="text-center opacity-60 pt-2 mt-1">
+        <div class="pt-2 mt-1 text-center opacity-60">
             <p>© 2021 {{ $t('config.copyright') }}</p>
         </div>
     </div>
   </div>
 </template>
 
+<style>
+  .nuxt-link-active {
+    color: red;
+  }
+</style>
