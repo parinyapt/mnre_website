@@ -44,6 +44,7 @@
         }
       },
       "history": {
+        "title": "History",
         "text1": "Nopparat Thara Beach National Park - Phi Phi Islands was declared a national park in the Royal Government Gazette, Volume 100, Section 106, dated October 6, 1983, and is Thailand's 47th National Park, , located at 47P477856E 889518N, with an area of approximately 387.90 square kilometers or 242,437 rai, with approximately 80 percent ground area and 20 percent water area."
       },
       "organizationStructure": {
@@ -72,6 +73,129 @@
       },
       "manpower": {
 
+      }
+    },
+    "touristattraction": {
+      "title": "Information of Tourist Attractions in Park Area",
+      "1": {
+        "name": "Nopparat Thara Beach",
+        "detail": "When the water level was low, the canal water flowing from the mountains to the north would dry up and turn into a stretch of white sand beach leading into it, earning it the name Khlong Haeng Beach. The sea meets Khao Pak Klong Island, and the beach is made up of fine sand and tiny shells. Along the long stretch of sea, pine trees are arranged in a beautiful pattern. A view of the big and small islands strewn about can be seen from the water. When the tide is low, a small island in front of the beach can be reached by walking. Also suitable for recreation. The distance from Krabi is approximately 17 kilometers."
+      },
+      "2": {
+        "name": "Shell Cemetery",
+        "detail": "There are fossils of many sorts of freshwater mollusks in the beach region of Ban Laem Pho in the northeastern section of the national park area. The majority of them are periwinkles, measuring about 2 cm in length. Calcareous calcareous water has placed the carcasses of these mollusks together to form a hard rock on top of the lignite layer. Stones and shale, which are thought to have formed 75 million years ago, are among the most important archeological evidence on the planet."
+      },
+      "3": {
+        "name": "Aonang",
+        "detail": "The bay area is full of rapids, and the surrounding terrain differs from other beaches in that it has a mountain on one side of the sand. Phra Nang Cave is a cave filled with stalagmites and stalactites. There are complicated levels of stalagmites and stalactites inside the cave, as well as lovely sandy beaches such Ao Nang Beach, Railay Beach, Tham Phra Nang Beach, and Nam Mao Beach, which are all accessible by automobile due to the presence of mountains. Then we'll have to charter a boat from the bay to get there. There are also large and small islets in front of the bay. The shapes vary; some resemble chicken heads, boots, and junk boats, while others, like Ko Kai, Ko Mo, and Ko Poda, resemble chicken heads, boots, and junk boats."
+      },
+      "4": {
+        "name": "Talae Waek (Open Sea)",
+        "detail": "Thale Waek was produced by sand dunes that occurred owing to low tide and is made up of sand dunes from three islands: Kai Island, Mo Island, and Thap Island. These three islands are connected by a bridge. When the waves break, the sand gathers at this place, forming a sandbar that allows these three islands to communicate with one another. When the tide is high, the sand dunes will vanish, but as the tide recedes, the sand dunes will gradually reappear, as if partitioning the sea into three pieces. From November through the beginning of May is the best time to visit Thale Waek."
+      },
+      "5": {
+        "name": "Poda Islands",
+        "detail": "It is located in the southern part of Ao Phra Nang. White sand can be seen from afar when viewing from the shore. The coastline area boasts a wide variety of coral reefs, as well as clear sea water. As a result, it is a popular tourist destination virtually all year. It's roughly 8 kilometers off the shore, so it gets a lot of monsoon breeze, and it's also a great fishing spot."
+      },
+      "6": {
+        "name": "Phi Phi Islands",
+        "detail": "According to legend, the sea people named the Phi Phi islands 'Pulao Pi Ampi', where 'Pulao' refers to the island and 'Pi Ampi' refers to a type of sea-tree classified as Samae and Man Kam. NS Later dubbed 'the beginning of the year', it was renamed 'PP', and was dubbed 'the kingdom of blossoms beneath the sea'. Coral reefs, water lilies, flora, and animals are the main draws for visitors to the islands. Phi Phi Don and Phi Phi Ley are two nearby islands that have been merged into a monarchy. The distance from Krabi's coast is roughly 42 kilometers. The overall aspect is of semicircular gorges encircled by limestone mountains that are so steep that they almost reach the sea, or 'Pileh' as the islanders refer to it."
+      },
+      "7": {
+        "name": "Mai Phai Island",
+        "detail": "It's not far from Yung Island in the northern section of Phi Phi Don. Beautiful sandy beaches and coral reefs can be found on the island's north and east sides, with the majority of them extending to the island's south."
+      },
+      "8": {
+        "name": "Phi Phi Ley Island",
+        "detail": "With a surface size of approximately 6.6 square kilometers, it is one of the smallest countries in the world. It's a limestone island with sheer cliffs that run parallel to the water's surface. An average land area of roughly 20 meters surrounds practically the entire island. There is a Viking cave that was visited by His Majesty King Bhumibol Adulyadej in 1972 and dubbed 'Tham Phaya Nak'."
+      },
+      "9": {
+        "name": "Viking Cave or Phaya Nak Cave",
+        "detail": "The locals who guard the swallow's nests on this island revere a stone in the shape of a serpent's head. Historical paintings portraying various types of bruises and boats may be seen inside the caverns to the east and south."
+      },
+      "10": {
+        "name": "Phi Phi Don Island",
+        "detail": "Laem Tong, located 28 square kilometers north of the island, is home to a settlement of roughly 15-20 households, the most of them are Lipe island immigrants. This area of Laem Tong is in Satun Province. Underwater nature is stunning and ideal for scuba diving. The same can be said for Laem Hua Raked's tip, Yang Beach, and Hin Phae. Ton Sai Bay and Lod Dam Lam Bay are two coves of world-class beauty that are home to a great number of accommodation facilities for general tourists."
+      },
+      "11": {
+        "name": "Khao Ngon Nak Nature Trail",
+        "detail": "The Nopparat Thara Beach National Park - Phi Phi Islands includes Khao Ngon Nak. It features a mountainous region with abundant animal and forest resources. which has a great deal of biological diversity. Such areas of the park have provided a natural study route, which leads to a beautiful viewpoint, the crested serpent, at a distance of approximately 3,700 meters. Suitable for people who are true nature lovers."
+      }
+    },
+    "servicetravel":{
+      "index": {
+        "title": "Services and Travel at Attractions",
+        "menu": {
+          "1": "National Park Facilities",
+          "2": "Transportation and Accessibility"
+        }
+      },
+      "nationalparkfacilities": {
+        "1": {
+          "title": "7 guest houses for tourists",
+          "detail":{
+            "1": "Ban Tom Hoi / Ban Poda / Ban Thale Waek / Ban Tub Kaek - 4 rooms per house, can accommodate 3 people per room, price 1,500 baht per room / night",
+            "2": "Loh Lam Nam House / Ban Loh Dam Lam / Ban Hang Nak - 4 rooms per house, can accommodate 2 people per room, price 1,500 baht per room / night"
+          }
+        },
+        "2": {
+          "title": "Place to pitch a tent, which can accommodate 100 tourists"
+        },
+        "3": {
+          "title": "Restrooms - toilets for tourists",
+          "detail":{
+            "1": "Nopparat Thara Beach",
+            "2": "Shell Cemetery",
+            "3": "Khao Ngon Nak Nature Trail",
+            "4": "Open Sea",
+            "5": "Poda Island",
+            "6": "Bamboo Island",
+            "7": "Maya Bay"
+          }
+        },
+        "4": {
+          "title": "4 Tourist Centers",
+          "detail":{
+            "1": "National Park Office (Nopparat Thara Beach)",
+            "2": "National Park Protection Unit No. 2 (Shell Cemetery)",
+            "3": "National Park Protection Unit No. 5 (Maya Bay)",
+            "4": "National Park Protection Unit No. 6 (Poda Island)"
+          }
+        },
+        "5": {
+          "title": "2 Information Centers",
+          "detail":{
+            "1": "Railay Information Service Center",
+            "2": "Thale Waek Information Service Center"
+          }
+        },
+        "6": {
+          "title": "2 Parking Lots",
+          "detail":{
+            "1": "National Park Office (Nopparat Thara Beach)",
+            "2": "National Park Protection Unit No. 2 (Shell Cemetery)"
+          }
+        },
+        "7": {
+          "title": "Pavilion"
+        },
+        "8": {
+          "title": "Pier Bridge at Park Office"
+        },
+        "9": {
+          "title": "2 Nature Trails",
+          "detail":{
+            "1": "Khao Crest Nature Study Walking Trail The distance is approximately 3,700 meters. It is under the responsibility of the National Park Protection Unit No. Por Por 4 (Tub Kaek).",
+            "2": "Walking path to see the shell cemetery The distance is about 400 meters. It is under the responsibility of the National Park Protection Unit No. 2 (Hoi Cemetery)."
+          }
+        },
+        "10": {
+          "title": "Restaurant/souvenir shop",
+          "detail":{
+            "1": "Nopparat Thara Beach, 29 stores",
+            "2": "shell cemeteries, 22 stores"
+          }
+        }
       }
     }
   }

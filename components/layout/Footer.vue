@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full text-white bg-blue-900">
+  <div class="w-full text-white bg-blue-900 ">
     <div class="px-10 pb-12 xl:px-40 lg:px-20 md:px-10 sm:px-5">
         <div class="flex flex-col justify-start w-full pt-12 space-y-2 sm:flex-row">
             <div class="flex flex-col w-full pr-6 space-y-4 sm:w-1/5 ">

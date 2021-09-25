@@ -14,31 +14,31 @@
                 <div class="bg-white shadow-lg rounded-2xl">
                   <div class="flex">
                       <div class="flex-1 group">
-                          <a href="#" class="flex items-end justify-center w-full px-4 pt-2 mx-auto text-center text-gray-400 group-hover:text-blue-900">
+                          <nuxt-link :to="localePath('general-information')" class="flex items-end justify-center w-full px-4 pt-2 mx-auto text-center text-gray-400 group-hover:text-blue-900">
                               <span class="block px-1 pt-1 pb-1">
                                   <i class="block pt-1 mb-1 text-2xl far fa-info-circle"></i>
                                   <span class="block pb-2 text-xs">{{ $t('config.menu.2') }}</span>
                                   <span class="block w-5 h-1 mx-auto rounded-full group-hover:bg-blue-900"></span>
                               </span>
-                          </a>
+                          </nuxt-link>
                       </div>
                       <div class="flex-1 group">
-                          <a href="#" class="flex items-end justify-center w-full px-4 pt-2 mx-auto text-center text-gray-400 group-hover:text-blue-900">
+                          <nuxt-link :to="localePath('tourist-attraction')" class="flex items-end justify-center w-full px-4 pt-2 mx-auto text-center text-gray-400 group-hover:text-blue-900">
                               <span class="block px-1 pt-1 pb-1">
                                   <i class="block pt-1 mb-1 text-2xl far fa-compass"></i>
                                   <span class="block pb-2 text-xs">{{ $t('config.menu.3') }}</span>
                                   <span class="block w-5 h-1 mx-auto rounded-full group-hover:bg-blue-900"></span>
                               </span>
-                          </a>
+                          </nuxt-link>
                       </div>
                       <div class="flex-1 group">
-                          <a href="#" class="flex items-end justify-center w-full px-4 pt-2 mx-auto text-center text-gray-400 group-hover:text-blue-900">
+                          <nuxt-link :to="localePath('service-travel')" class="flex items-end justify-center w-full px-4 pt-2 mx-auto text-center text-gray-400 group-hover:text-blue-900">
                               <span class="block px-1 pt-1 pb-1">
                                   <i class="block pt-1 mb-1 text-2xl far fa-route"></i>
                                   <span class="block pb-2 text-xs ">{{ $t('config.menu.4') }}</span>
                                   <span class="block w-5 h-1 mx-auto rounded-full group-hover:bg-blue-900"></span>
                               </span>
-                          </a>
+                          </nuxt-link>
                       </div>
                   </div>
                 </div>

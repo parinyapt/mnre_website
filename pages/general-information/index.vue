@@ -1,70 +1,79 @@
 <template>
-  <div class="bg-blue-50 py-14">
+  <div class="bg-gray-50 py-14">
     <h3 class="text-2xl font-bold tracking-widest text-center text-blue-900">{{ $t( 'page.generalinformation.index.title' ) }}</h3>
     <!-- <h1 class="mt-8 text-5xl font-bold text-center text-blue-900">Our Features & Services.</h1> -->
 
-    <!-- Box -->
-    <div class="items-stretch md:flex md:justify-center md:space-x-8 md:px-14">
-      <!-- box-1 -->
-      <div class="px-2 py-4 mx-auto mt-8 transition duration-500 transform bg-white shadow-lg bg-whit w-72 rounded-xl hover:shadow-xl hover:scale-110 md:mx-0">
-        <div class="w-sm">
-          <!-- <img class="w-64" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/a17abde8d83650a582a28432/users-with-speech-bubbles-vector_53876-82250.jpg" alt="" /> -->
-          <div class="mt-4 text-center text-blue-900">
-            <h1 class="text-xl font-bold">{{ $t( 'page.generalinformation.index.subtitle.1' ) }}</h1>
-            <!-- <p class="mt-4 text-gray-600">Pretium lectus quam id leo in vitae turpis. Mattis pellentesque id nibh tortor id.</p> -->
-            <button class="py-2 mt-8 mb-4 tracking-widest text-white transition duration-200 bg-blue-900 rounded-full px-14 hover:bg-blue-700"><i class="text-md far fa-sign-in-alt"></i></button>
-          </div>
-        </div>
-      </div>
+<!-- Box -->
+    <div class="flex-wrap items-stretch mt-10 ml-3 mr-3 md:flex md:justify-center md:space-x-8 md:px-14">
 
-      <!-- box-2 -->
-      <div class="px-2 py-4 mx-auto mt-8 transition duration-500 transform bg-white shadow-lg bg-whit w-72 rounded-xl hover:shadow-xl hover:scale-110 md:mx-0">
-        <div class="w-sm">
-          <!-- <img class="w-64" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/3b242447f922540fbe750cab/fdf.jpg" alt="" /> -->
-          <div class="mt-4 text-center text-blue-900">
-            <h1 class="text-xl font-bold">{{ $t( 'page.generalinformation.index.subtitle.2' ) }}</h1>
-            <!-- <p class="mt-4 text-gray-600">Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Risus feugiat.</p> -->
-            <nuxt-link :to="localePath('/general-information/organizational-structure')"><button :to="localePath('index')" class="py-2 mt-8 mb-4 tracking-widest text-white transition duration-200 bg-blue-900 rounded-full px-14 hover:bg-blue-700"><i class="text-md far fa-sign-in-alt"></i></button></nuxt-link>
-          <!-- <nuxt-link :to="localePath('/general-information/organizational-structure')"> -->
-          </div>
-        </div>
-      </div>
 
-      <!-- box-3 -->
-      <div class="px-2 py-4 mx-auto mt-8 transition duration-500 transform bg-white shadow-lg bg-whit w-72 rounded-xl hover:shadow-xl hover:scale-110 md:mx-0">
-        <div class="w-sm">
-          <!-- <img class="w-64" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/8cc47b39e719570b996d9879/dsds.jpg" alt="" /> -->
-          <div class="mt-4 text-center text-blue-900">
-            <h1 class="text-xl font-bold">{{ $t( 'page.generalinformation.index.subtitle.3' ) }}</h1>
-            <!-- <p class="mt-4 text-gray-600">Nisl purus in mollis nunc sed id semper. Rhoncus aenean vel elit scelerisque mauris.</p> -->
-            <button class="py-2 mt-8 mb-4 tracking-widest text-white transition duration-200 bg-blue-900 rounded-full px-14 hover:bg-blue-700"><i class="text-md far fa-sign-in-alt"></i></button>
-          </div>
+    <nuxt-link :to="localePath('/general-information/history')">
+      <div class="flex items-center justify-start px-3 py-4 mx-auto mt-5 space-x-2 transition duration-500 transform bg-white shadow-lg w-70 hover:shadow-xl hover:scale-110 md:mx-0 rounded-xl">
+        <div class="flex-shrink pr-4">
+            <div class="p-2 bg-blue-900 rounded">
+              <i class="fa fa-wallet fa-2x fa-fw fa-inverse"></i>
+            </div>
+        </div>
+        <div>
+          <h2 class="text-lg font-bold text-center">{{ $t( 'page.generalinformation.index.subtitle.1' ) }}</h2>
         </div>
       </div>
+    </nuxt-link>
 
-      <!-- box-4 -->
-      <div class="px-2 py-4 mx-auto mt-8 transition duration-500 transform bg-white shadow-lg bg-whit w-72 rounded-xl hover:shadow-xl hover:scale-110 md:mx-0">
-        <div class="w-sm">
-          <!-- <img class="w-64" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/8cc47b39e719570b996d9879/dsds.jpg" alt="" /> -->
-          <div class="mt-4 text-center text-blue-900">
-            <h1 class="text-xl font-bold">{{ $t( 'page.generalinformation.index.subtitle.4' ) }}</h1>
-            <!-- <p class="mt-4 text-gray-600">Nisl purus in mollis nunc sed id semper. Rhoncus aenean vel elit scelerisque mauris.</p> -->
-            <button class="py-2 mt-8 mb-4 tracking-widest text-white transition duration-200 bg-blue-900 rounded-full px-14 hover:bg-blue-700"><i class="text-md far fa-sign-in-alt"></i></button>
-          </div>
+    <nuxt-link :to="localePath('/general-information/organizational-structure')">
+      <div class="flex items-center justify-start px-3 py-4 mx-auto mt-5 space-x-2 transition duration-500 transform bg-white shadow-lg w-70 hover:shadow-xl hover:scale-110 md:mx-0 rounded-xl">
+        <div class="flex-shrink pr-4">
+            <div class="p-2 bg-blue-900 rounded">
+              <i class="fa fa-wallet fa-2x fa-fw fa-inverse"></i>
+            </div>
+        </div>
+        <div>
+          <h2 class="text-lg font-bold">{{ $t( 'page.generalinformation.index.subtitle.2' ) }}</h2>
         </div>
       </div>
+    </nuxt-link>
 
-      <!-- box-5 -->
-      <div class="px-2 py-4 mx-auto mt-8 transition duration-500 transform bg-white shadow-lg bg-whit w-72 rounded-xl hover:shadow-xl hover:scale-110 md:mx-0">
-        <div class="w-sm">
-          <!-- <img class="w-64" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/8cc47b39e719570b996d9879/dsds.jpg" alt="" /> -->
-          <div class="mt-4 text-center text-blue-900">
-            <h1 class="text-xl font-bold">{{ $t( 'page.generalinformation.index.subtitle.5' ) }}</h1>
-            <!-- <p class="mt-4 text-gray-600">Nisl purus in mollis nunc sed id semper. Rhoncus aenean vel elit scelerisque mauris.</p> -->
-            <button class="py-2 mt-8 mb-4 tracking-widest text-white transition duration-200 bg-blue-900 rounded-full px-14 hover:bg-blue-700"><i class="text-md far fa-sign-in-alt"></i></button>
-          </div>
+    <nuxt-link :to="localePath('/general-information/manpower')">
+      <div class="flex items-center justify-start px-3 py-4 mx-auto mt-5 space-x-2 transition duration-500 transform bg-white shadow-lg w-70 hover:shadow-xl hover:scale-110 md:mx-0 rounded-xl">
+        <div class="flex-shrink pr-4">
+            <div class="p-2 bg-blue-900 rounded">
+              <i class="fa fa-wallet fa-2x fa-fw fa-inverse"></i>
+            </div>
+        </div>
+        <div>
+          <h2 class="text-lg font-bold">{{ $t( 'page.generalinformation.index.subtitle.3' ) }}</h2>
         </div>
       </div>
+    </nuxt-link>
+
+    <nuxt-link :to="localePath('/general-information/affiliated-agencies')">
+      <div class="flex items-center justify-start px-3 py-4 mx-auto mt-5 space-x-2 transition duration-500 transform bg-white shadow-lg w-70 hover:shadow-xl hover:scale-110 md:mx-0 rounded-xl">
+        <div class="flex-shrink pr-4">
+            <div class="p-2 bg-blue-900 rounded">
+              <i class="fa fa-wallet fa-2x fa-fw fa-inverse"></i>
+            </div>
+        </div>
+        <div>
+          <h2 class="text-lg font-bold">{{ $t( 'page.generalinformation.index.subtitle.4' ) }}</h2>
+        </div>
+      </div>
+    </nuxt-link>
+
+    <nuxt-link :to="localePath('/general-information/information-service-center')">
+      <div class="flex items-center justify-start px-3 py-4 mx-auto mt-5 space-x-2 transition duration-500 transform bg-white shadow-lg w-70 hover:shadow-xl hover:scale-110 md:mx-0 rounded-xl">
+        <div class="flex-shrink pr-4">
+            <div class="p-2 bg-blue-900 rounded">
+              <i class="fa fa-wallet fa-2x fa-fw fa-inverse"></i>
+            </div>
+        </div>
+        <div>
+          <h2 class="text-lg font-bold">{{ $t( 'page.generalinformation.index.subtitle.5' ) }}</h2>
+        </div>
+      </div>
+    </nuxt-link>
+
     </div>
+
+
   </div>
 </template>
