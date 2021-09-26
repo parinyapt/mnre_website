@@ -98,3 +98,13 @@
     </article>
   </section>
 </template>
+
+<script>
+export default {
+  async asyncData({ $axios }) {
+    const photos = await $axios.$get('https://docs.google.com/spreadsheets/d/1MSkIw3FAVbmx3f96wImGomwpNS_Uixi0pRPkVAfnxbg/gviz/tq?tqx=out:json');
+    console.log(photos)
+    return { photos };
+  }
+}
+</script>

@@ -11,7 +11,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'อุทยานแห่งชาติหาดนพรัตน์ธารา-หมู่เกาะพีพี สำนักบริหารพื้นที่อนุรักษ์ที่ 5 (นครศรีธรรมราช) กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -31,6 +31,7 @@ export default {
     // linkActiveClass: '',
     // linkExactActiveClass: ''
     // text-gray-900 bg-gray-200
+    // base: '/mnre/'
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

@@ -63,7 +63,20 @@ export default {
     availableLocales () {
       return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
     }
-  }
+  },
+  head() {
+      return {
+        title: this.$t('config.title'),
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: 'description',
+            name: 'description',
+            content: this.$t('config.description')
+          }
+        ]
+      }
+    }
 }
 </script>
 

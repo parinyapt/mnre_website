@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-10 mb-20 ml-3 mr-3 bg-gray-50">
+  <section class="px-3 py-14 bg-gray-50">
 
     <h3 class="mt-10 text-2xl font-bold tracking-widest text-center text-blue-900">{{ $t( 'page.touristattraction.title' ) }}</h3>
 

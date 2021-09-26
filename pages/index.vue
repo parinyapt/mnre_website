@@ -2,7 +2,7 @@
   <section>
     <PageIndexIntroVideo />
     <PageIndexSection2 />
-    <PageIndexSection3PublicRelation />
+    <!-- <PageIndexSection3PublicRelation /> -->
 
   </section>
 </template>
