@@ -6,7 +6,7 @@
     <div class="container mx-auto my-5 mt-8">
       <div class="relative flex flex-col items-center mx-2 rounded-lg md:flex-row md:shadow-xl md:h-72">
           <div class="relative z-0 order-1 w-full overflow-hidden rounded-lg md:order-2 md:w-2/5 h-80 md:h-full md:rounded-none md:rounded-r-lg">
-              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" style="background-image: url( '/ta/1.jpg' ); background-blend-mode: multiply;"></div>
+              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" :style="`background-image: url( '${ $config.baseURL}/ta/1.jpg' ); background-blend-mode: multiply;`"></div>
               <div class="absolute inset-0 flex flex-col-reverse items-start justify-start h-full p-6 pb-6 md:hidden bg-gradient-to-b from-transparent via-transparent to-gray-900">
                   <h3 class="w-full mb-2 text-2xl font-bold leading-tight text-white">{{ $t( 'page.touristattraction.1.name' ) }}</h3>
               </div>
@@ -26,7 +26,7 @@
     <div class="container mx-auto my-5 mt-8">
       <div class="relative flex flex-col items-center mx-2 rounded-lg md:flex-row md:shadow-xl md:h-72">
           <div class="relative z-0 order-1 w-full overflow-hidden rounded-lg md:order-2 md:w-2/5 h-80 md:h-full md:rounded-none md:rounded-r-lg">
-              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" style="background-image: url( '/ta/2.jpg' ); background-blend-mode: multiply;"></div>
+              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" :style="`background-image: url( '${ $config.baseURL}/ta/2.jpg' ); background-blend-mode: multiply;`"></div>
               <div class="absolute inset-0 flex flex-col-reverse items-start justify-start h-full p-6 pb-6 md:hidden bg-gradient-to-b from-transparent via-transparent to-gray-900">
                   <h3 class="w-full mb-2 text-2xl font-bold leading-tight text-white">{{ $t( 'page.touristattraction.2.name' ) }}</h3>
               </div>
@@ -46,7 +46,7 @@
     <div class="container mx-auto my-5 mt-8">
       <div class="relative flex flex-col items-center mx-2 rounded-lg md:flex-row md:shadow-xl md:h-72">
           <div class="relative z-0 order-1 w-full overflow-hidden rounded-lg md:order-2 md:w-2/5 h-80 md:h-full md:rounded-none md:rounded-r-lg">
-              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" style="background-image: url( '/ta/noimg.jpg' ); background-blend-mode: multiply;"></div>
+              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" :style="`background-image: url( '${ $config.baseURL}/ta/noimg.jpg' ); background-blend-mode: multiply;`"></div>
               <div class="absolute inset-0 flex flex-col-reverse items-start justify-start h-full p-6 pb-6 md:hidden bg-gradient-to-b from-transparent via-transparent to-gray-900">
                   <h3 class="w-full mb-2 text-2xl font-bold leading-tight text-white">{{ $t( 'page.touristattraction.3.name' ) }}</h3>
               </div>
@@ -66,7 +66,7 @@
     <div class="container mx-auto my-5 mt-8">
       <div class="relative flex flex-col items-center mx-2 rounded-lg md:flex-row md:shadow-xl md:h-72">
           <div class="relative z-0 order-1 w-full overflow-hidden rounded-lg md:order-2 md:w-2/5 h-80 md:h-full md:rounded-none md:rounded-r-lg">
-              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" style="background-image: url( '/ta/4.jpg' ); background-blend-mode: multiply;"></div>
+              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" :style="`background-image: url( '${ $config.baseURL}/ta/4.jpg' ); background-blend-mode: multiply;`"></div>
               <div class="absolute inset-0 flex flex-col-reverse items-start justify-start h-full p-6 pb-6 md:hidden bg-gradient-to-b from-transparent via-transparent to-gray-900">
                   <h3 class="w-full mb-2 text-2xl font-bold leading-tight text-white">{{ $t( 'page.touristattraction.4.name' ) }}</h3>
               </div>
@@ -86,7 +86,7 @@
     <div class="container mx-auto my-5 mt-8">
       <div class="relative flex flex-col items-center mx-2 rounded-lg md:flex-row md:shadow-xl md:h-72">
           <div class="relative z-0 order-1 w-full overflow-hidden rounded-lg md:order-2 md:w-2/5 h-80 md:h-full md:rounded-none md:rounded-r-lg">
-              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" style="background-image: url( '/ta/5.jpg' ); background-blend-mode: multiply;"></div>
+              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" :style="`background-image: url( '${ $config.baseURL}/ta/5.jpg' ); background-blend-mode: multiply;`"></div>
               <div class="absolute inset-0 flex flex-col-reverse items-start justify-start h-full p-6 pb-6 md:hidden bg-gradient-to-b from-transparent via-transparent to-gray-900">
                   <h3 class="w-full mb-2 text-2xl font-bold leading-tight text-white">{{ $t( 'page.touristattraction.5.name' ) }}</h3>
               </div>
@@ -106,7 +106,7 @@
     <div class="container mx-auto my-5 mt-8">
       <div class="relative flex flex-col items-center mx-2 rounded-lg md:flex-row md:shadow-xl md:h-72">
           <div class="relative z-0 order-1 w-full overflow-hidden rounded-lg md:order-2 md:w-2/5 h-80 md:h-full md:rounded-none md:rounded-r-lg">
-              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" style="background-image: url( '/ta/6.jpg' ); background-blend-mode: multiply;"></div>
+              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" :style="`background-image: url( '${ $config.baseURL}/ta/6.jpg' ); background-blend-mode: multiply;`"></div>
               <div class="absolute inset-0 flex flex-col-reverse items-start justify-start h-full p-6 pb-6 md:hidden bg-gradient-to-b from-transparent via-transparent to-gray-900">
                   <h3 class="w-full mb-2 text-2xl font-bold leading-tight text-white">{{ $t( 'page.touristattraction.6.name' ) }}</h3>
               </div>
@@ -126,7 +126,7 @@
     <div class="container mx-auto my-5 mt-8">
       <div class="relative flex flex-col items-center mx-2 rounded-lg md:flex-row md:shadow-xl md:h-72">
           <div class="relative z-0 order-1 w-full overflow-hidden rounded-lg md:order-2 md:w-2/5 h-80 md:h-full md:rounded-none md:rounded-r-lg">
-              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" style="background-image: url( '/ta/7.jpg' ); background-blend-mode: multiply;"></div>
+              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" :style="`background-image: url( '${ $config.baseURL}/ta/7.jpg' ); background-blend-mode: multiply;`"></div>
               <div class="absolute inset-0 flex flex-col-reverse items-start justify-start h-full p-6 pb-6 md:hidden bg-gradient-to-b from-transparent via-transparent to-gray-900">
                   <h3 class="w-full mb-2 text-2xl font-bold leading-tight text-white">{{ $t( 'page.touristattraction.7.name' ) }}</h3>
               </div>
@@ -146,7 +146,7 @@
     <div class="container mx-auto my-5 mt-8">
       <div class="relative flex flex-col items-center mx-2 rounded-lg md:flex-row md:shadow-xl md:h-72">
           <div class="relative z-0 order-1 w-full overflow-hidden rounded-lg md:order-2 md:w-2/5 h-80 md:h-full md:rounded-none md:rounded-r-lg">
-              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" style="background-image: url( '/ta/noimg.jpg' ); background-blend-mode: multiply;"></div>
+              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" :style="`background-image: url( '${ $config.baseURL}/ta/noimg.jpg' ); background-blend-mode: multiply;`"></div>
               <div class="absolute inset-0 flex flex-col-reverse items-start justify-start h-full p-6 pb-6 md:hidden bg-gradient-to-b from-transparent via-transparent to-gray-900">
                   <h3 class="w-full mb-2 text-2xl font-bold leading-tight text-white">{{ $t( 'page.touristattraction.8.name' ) }}</h3>
               </div>
@@ -166,7 +166,7 @@
     <div class="container mx-auto my-5 mt-8">
       <div class="relative flex flex-col items-center mx-2 rounded-lg md:flex-row md:shadow-xl md:h-72">
           <div class="relative z-0 order-1 w-full overflow-hidden rounded-lg md:order-2 md:w-2/5 h-80 md:h-full md:rounded-none md:rounded-r-lg">
-              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" style="background-image: url( '/ta/noimg.jpg' ); background-blend-mode: multiply;"></div>
+              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" :style="`background-image: url( '${ $config.baseURL}/ta/noimg.jpg' ); background-blend-mode: multiply;`"></div>
               <div class="absolute inset-0 flex flex-col-reverse items-start justify-start h-full p-6 pb-6 md:hidden bg-gradient-to-b from-transparent via-transparent to-gray-900">
                   <h3 class="w-full mb-2 text-2xl font-bold leading-tight text-white">{{ $t( 'page.touristattraction.9.name' ) }}</h3>
               </div>
@@ -186,7 +186,7 @@
     <div class="container mx-auto my-5 mt-8">
       <div class="relative flex flex-col items-center mx-2 rounded-lg md:flex-row md:shadow-xl md:h-72">
           <div class="relative z-0 order-1 w-full overflow-hidden rounded-lg md:order-2 md:w-2/5 h-80 md:h-full md:rounded-none md:rounded-r-lg">
-              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" style="background-image: url( '/ta/noimg.jpg' ); background-blend-mode: multiply;"></div>
+              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" :style="`background-image: url( '${ $config.baseURL}/ta/noimg.jpg' ); background-blend-mode: multiply;`"></div>
               <div class="absolute inset-0 flex flex-col-reverse items-start justify-start h-full p-6 pb-6 md:hidden bg-gradient-to-b from-transparent via-transparent to-gray-900">
                   <h3 class="w-full mb-2 text-2xl font-bold leading-tight text-white">{{ $t( 'page.touristattraction.10.name' ) }}</h3>
               </div>
@@ -206,7 +206,7 @@
     <div class="container mx-auto my-5 mt-8">
       <div class="relative flex flex-col items-center mx-2 rounded-lg md:flex-row md:shadow-xl md:h-72">
           <div class="relative z-0 order-1 w-full overflow-hidden rounded-lg md:order-2 md:w-2/5 h-80 md:h-full md:rounded-none md:rounded-r-lg">
-              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" style="background-image: url( '/ta/11.jpg' ); background-blend-mode: multiply;"></div>
+              <div class="absolute inset-0 object-fill object-center w-full h-full bg-blue-400 bg-bottom bg-cover bg-opacity-30" :style="`background-image: url( '${ $config.baseURL}/ta/11.jpg' ); background-blend-mode: multiply;`"></div>
               <div class="absolute inset-0 flex flex-col-reverse items-start justify-start h-full p-6 pb-6 md:hidden bg-gradient-to-b from-transparent via-transparent to-gray-900">
                   <h3 class="w-full mb-2 text-2xl font-bold leading-tight text-white">{{ $t( 'page.touristattraction.11.name' ) }}</h3>
               </div>

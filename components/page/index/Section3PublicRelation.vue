@@ -1,7 +1,8 @@
 <template>
   <section class="px-4 mx-auto mt-12 mb-12 max-w-7xl sm:px-6 lg:px-4">
+
     <article>
-        <h2 class="text-2xl font-extrabold text-gray-900">{{ $t( 'page.index.section3.title' ) }}</h2>
+        <h2 class="text-2xl font-extrabold text-gray-900">{{ $t( 'page.index.section3.title' ) }} {{ ip }}</h2>
         <div class="w-20 h-1 bg-blue-900 rounded"></div>
         <section class="grid mt-6 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-8">
             <article class="relative overflow-hidden duration-200 transform bg-white rounded-lg shadow-lg group hover:shadow-2xl">
@@ -10,7 +11,7 @@
                         alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug."
                         class="object-cover object-center w-full h-full">
                 </div>
-                <div class="px-3 py-4">
+                <div class="px-3 py-4" @click="fetchSomething()">
                     <h3 class="pb-2 text-sm text-gray-500">
                         <a class="px-2 py-1 text-white bg-indigo-600 rounded-lg" href="#">
                             <span class="absolute inset-0"></span>
@@ -101,10 +102,19 @@
 
 <script>
 export default {
+  data() {
+    return{ip: ''}
+  },
+  // methods: {
+  //   async fetchSomething() {
+  //     const ip = await this.$axios.$get('http://icanhazip.com')
+  //     this.ip = ip
+  //   }
+  // },
   async asyncData({ $axios }) {
-    const photos = await $axios.$get('https://docs.google.com/spreadsheets/d/1MSkIw3FAVbmx3f96wImGomwpNS_Uixi0pRPkVAfnxbg/gviz/tq?tqx=out:json');
-    console.log(photos)
-    return { photos };
+    const ip = await this.$axios.$get('http://icanhazip.com');
+    // this.ip = ip
+    return { ip };
   }
 }
 </script>
