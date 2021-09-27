@@ -37,7 +37,12 @@
 <script>
 export default {
   async asyncData({ $axios }) {
-    var publicrelation = await $axios.$get('https://script.googleusercontent.com/macros/echo?user_content_key=Fe9m6eFzpcJNUU_cwlVtTM1De2Q3jj20Cnlwbu4aFbIfxEkSHg2aelW-4gctU-DD0dT5HJ_Jje5MasEwUmM00hrJr7UkoOkGm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnEYTIrNCHeqVvLGjzBibfk9lPNWZzUhEKPefszOdXt-zH1p5f5Xz__J4QhZm_1jikI7_TP8LLLpLLgANXR6ofjDuHeaqLj634UHiAV0enlLZDZPCCRSotOQ&lib=MM9ToiOdvUEcRa3bB0bncGoeEWWEh7reG');
+    var publicrelation = ''
+    try {
+      publicrelation = await $axios.$get('https://sheetdb.io/api/v1/w89np2de398ri');
+    } catch (error) {
+      alert(error);
+    }
 
     return { publicrelation };
   }

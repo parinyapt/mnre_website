@@ -1,5 +1,5 @@
 <template>
-<div class="px-3 py-14 bg-blue-50">
+<div class="px-3 py-14 bg-gray-50">
     <h3 class="p-2 text-2xl font-bold tracking-widest text-center text-blue-900">{{ $t( 'page.generalinformation.index.subtitle.3' ) }}</h3>
 
     <div class='w-full mt-10 overflow-x-auto'>

@@ -1,6 +1,7 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
+  target: 'server',
+  ssr: true,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -34,14 +35,14 @@ export default {
       {
         hid: 'og:image',
         name: 'og:image',
-        content: `${$config.baseURL}` + '/ogimage.png',
+        content: '/website/mnrenew/ogimage.png',
       },
     ],
     link: [
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: `${$config.baseURL}` + '/logo-notext.png',
+        href: '/website/mnrenew/logo-notext.png',
       },
     ],
     script: [
@@ -56,11 +57,11 @@ export default {
     // linkActiveClass: '',
     // linkExactActiveClass: ''
     // text-gray-900 bg-gray-200
-    base: `${$config.baseURL}`
+    base: "/website/mnrenew"
   },
 
   publicRuntimeConfig: {
-    baseURL: "/web/mnre"
+    baseURL: "/website/mnrenew"
     // baseURL: '',
   },
 
