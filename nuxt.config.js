@@ -3,6 +3,10 @@ export default {
   target: 'static',
   // ssr: true,
 
+  generate: {
+    fallback: true
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'อุทยานแห่งชาติหาดนพรัตน์ธารา-หมู่เกาะพีพี',
