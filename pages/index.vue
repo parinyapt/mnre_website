@@ -3,7 +3,7 @@
     <PageIndexIntroVideo />
     <PageIndexSection2 />
 
-    <section class="px-4 mx-auto mt-12 mb-12 max-w-7xl sm:px-6 lg:px-4">
+    <!-- <section class="px-4 mx-auto mt-12 mb-12 max-w-7xl sm:px-6 lg:px-4">
       <article>
           <h2 class="text-2xl font-extrabold text-gray-900">{{ $t( 'page.index.section3.title' ) }}</h2>
           <div class="w-20 h-1 bg-blue-900 rounded"></div>
@@ -30,21 +30,21 @@
 
           </section>
       </article>
-    </section>
+    </section> -->
   </section>
 </template>
 
 <script>
-export default {
-  async asyncData({ $axios }) {
-    var publicrelation = ''
-    try {
-      publicrelation = await $axios.$get('https://sheetdb.io/api/v1/w89np2de398ri');
-    } catch (error) {
-      alert(error);
-    }
+// export default {
+//   async asyncData({ $axios }) {
+//     var publicrelation = ''
+//     try {
+//       publicrelation = await $axios.$get('https://sheetdb.io/api/v1/w89np2de398ri');
+//     } catch (error) {
+//       alert(error);
+//     }
 
-    return { publicrelation };
-  }
-}
+//     return { publicrelation };
+//   }
+// }
 </script>
