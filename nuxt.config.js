@@ -1,7 +1,7 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'server',
-  ssr: true,
+  target: 'static',
+  // ssr: true,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -57,12 +57,13 @@ export default {
     // linkActiveClass: '',
     // linkExactActiveClass: ''
     // text-gray-900 bg-gray-200
-    base: "/website/mnrenew"
+    // base: "/website/mnrenew"
+    base: "/"
   },
 
   publicRuntimeConfig: {
-    baseURL: "/website/mnrenew"
-    // baseURL: '',
+    // baseURL: "/website/mnrenew"
+    baseURL: '',
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
